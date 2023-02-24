@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "FqTw6rlOfnv5y4KhXiywdyH2ayK25Vg/vCtrJgnoce7ZWOl7krD9bAUZ+Oux4ND0iQkDawOcsJ/uw1C2sr/FLw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\velib\\OneDrive\\Desktop\\Work\\Security\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\velib\\.nuget\\packages\\csharpfunctionalextensions\\2.37.0\\csharpfunctionalextensions.2.37.0.nupkg.sha512",
+    "C:\\Users\\velib\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
+    "C:\\Users\\velib\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\velib\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\velib\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

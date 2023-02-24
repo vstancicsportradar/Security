@@ -1,0 +1,292 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "CSharpFunctionalExtensions/2.37.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MediatR/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.0, 3.0.0)",
+          "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpFunctionalExtensions/2.37.0": {
+      "sha512": "he6h/0A+D//IY9GdIBaKABzThqcdTc7Jbrd5hVYIBIu+VtdnjRnzKpemiqX2EFV55um3XEDbI2sEIGjktYBE9g==",
+      "type": "package",
+      "path": "csharpfunctionalextensions/2.37.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csharpfunctionalextensions.2.37.0.nupkg.sha512",
+        "csharpfunctionalextensions.nuspec",
+        "lib/net40/CSharpFunctionalExtensions.dll",
+        "lib/net40/CSharpFunctionalExtensions.pdb",
+        "lib/net40/CSharpFunctionalExtensions.xml",
+        "lib/net45/CSharpFunctionalExtensions.dll",
+        "lib/net45/CSharpFunctionalExtensions.pdb",
+        "lib/net45/CSharpFunctionalExtensions.xml",
+        "lib/net461/CSharpFunctionalExtensions.dll",
+        "lib/net461/CSharpFunctionalExtensions.pdb",
+        "lib/net461/CSharpFunctionalExtensions.xml",
+        "lib/net472/CSharpFunctionalExtensions.dll",
+        "lib/net472/CSharpFunctionalExtensions.pdb",
+        "lib/net472/CSharpFunctionalExtensions.xml",
+        "lib/net5.0/CSharpFunctionalExtensions.dll",
+        "lib/net5.0/CSharpFunctionalExtensions.pdb",
+        "lib/net5.0/CSharpFunctionalExtensions.xml",
+        "lib/net6.0/CSharpFunctionalExtensions.dll",
+        "lib/net6.0/CSharpFunctionalExtensions.pdb",
+        "lib/net6.0/CSharpFunctionalExtensions.xml",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.dll",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.pdb",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.xml"
+      ]
+    },
+    "MediatR/12.0.0": {
+      "sha512": "1XodBmbn3I1y7T0iSCSl9sQqHOx/BF63GqWb7mtMQja9ESUk7QrcmzzJFOGie9ruSC7A/oaW/8TwaJLuA9RQRw==",
+      "type": "package",
+      "path": "mediatr/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.0": {
+      "sha512": "DKkwHP3xb2BVeBQQedNvg7eMKvQU33H3SozHsc+drjDSCcnVb/ov4tSwdRAyLv74Nb0IUl2evVR9OQuqurGqpA==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.0.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
+      "sha512": "3aeMZ1N0lJoSyzqiP03hqemtb1BijhsJADdobn/4nsMJ8V1H+CrpuduUe4hlRdx+ikBQju1VGjMD1GJ3Sk05Eg==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "CSharpFunctionalExtensions >= 2.37.0",
+      "Domain >= 1.0.0",
+      "MediatR >= 12.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\velib\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\velib\\OneDrive\\Desktop\\Work\\Security\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "C:\\Users\\velib\\OneDrive\\Desktop\\Work\\Security\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\velib\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\velib\\OneDrive\\Desktop\\Work\\Security\\Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\velib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\velib\\OneDrive\\Desktop\\Work\\Security\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\velib\\OneDrive\\Desktop\\Work\\Security\\Domain\\Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "CSharpFunctionalExtensions": {
+            "target": "Package",
+            "version": "[2.37.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
